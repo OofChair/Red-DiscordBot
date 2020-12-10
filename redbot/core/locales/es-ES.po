@@ -204,26 +204,26 @@ msgstr "Menos de 1 segundo"
 
 #: redbot/core/core_commands.py:516
 msgid "Been up for: **{time_quantity}** (since {timestamp} UTC)"
-msgstr ""
+msgstr "Activo durante: **{time_quantity}** (desde {timestamp} UTC)"
 
 #: redbot/core/core_commands.py:523
 #, docstring
 msgid " Commands which interact with the data [botname] has about you. "
-msgstr ""
+msgstr " Los comandos que interactúan con los datos que [botname] tiene sobre ti. "
 
 #: redbot/core/core_commands.py:530
 #, docstring
 msgid " Find out what type of data [botname] stores and why. "
-msgstr ""
+msgstr " Averigua qué tipo de datos almacena [botname] y por qué. "
 
 #: redbot/core/core_commands.py:535
 msgid "This bot stores some data about users as necessary to function. This is mostly the ID your user is assigned by Discord, linked to a handful of things depending on what you interact with in the bot. There are a few commands which store it to keep track of who created something. (such as playlists) For full details about this as well as more in depth details of what is stored and why, see {link}.\\n\\nAdditionally, 3rd party addons loaded by the bot's owner may or may not store additional things. You can use `{prefix}mydata 3rdparty` to view the statements provided by each 3rd-party addition."
-msgstr ""
+msgstr "Este bot almacena algunos datos sobre los usuarios cuando sea necesario para funcionar. Esto es principalmente el ID que tu usuario está asignado por Discord, enlazado a un puñado de cosas dependiendo de con lo que interactúes en el bot. Hay algunos comandos que lo almacenan para mantener un seguimiento de quién creó algo. (como las listas de reproducción) Para obtener más detalles sobre esto y más detalles sobre lo que se almacena y por qué, consulte {link}.\\n\\nAdemás, los complementos de terceros cargados por el propietario del bot pueden o no almacenar cosas adicionales. Puedes usar `{prefix}mydata 3rdparty` para ver las sentencias proporcionadas por cada adición de terceros."
 
 #: redbot/core/core_commands.py:554
 #, docstring
 msgid " View the End User Data statements of each 3rd-party module. "
-msgstr ""
+msgstr " Ver las declaraciones finales de los datos de usuario de cada módulo de terceros. "
 
 #: redbot/core/core_commands.py:559
 msgid "I need to be able to attach files (try in DMs?)."
@@ -276,11 +276,11 @@ msgstr "Esto puede tardar un poco."
 
 #: redbot/core/core_commands.py:681
 msgid "I tried to delete all non-operational data about you (that I know how to delete) {mention}, however the following modules errored: {modules}. Additionally, the following cogs errored: {cogs}.\\nPlease contact the owner of this bot to address this.\\nNote: Outside of these failures, data should have been deleted."
-msgstr ""
+msgstr "He intentado eliminar todos los datos no operativos sobre usted (que sé cómo eliminar) {mention}, Sin embargo, los siguientes módulos han fallado: {modules}. Adicionalmente, los siguientes cogs han fallado: {cogs}.\\nPor favor, contacte con el propietario de este bot para resolver esto.\\nNota: Fuera de estos fallos, los datos deberían haber sido eliminados."
 
 #: redbot/core/core_commands.py:696
 msgid "I tried to delete all non-operational data about you (that I know how to delete) {mention}, however the following cogs errored: {cogs}.\\nPlease contact the owner of this bot to address this.\\nNote: Outside of these failures, data should have been deleted."
-msgstr ""
+msgstr "He intentado eliminar todos los datos no operativos sobre usted (que sé cómo eliminar) {mention}, Sin embargo, los siguientes módulos han fallado: {cogs}. Adicionalmente, los siguientes cogs han fallado:.\\nPor favor, contacte con el propietario de este bot para resolver esto.\\nNota: Fuera de estos fallos, los datos deberían haber sido eliminados."
 
 #: redbot/core/core_commands.py:706
 msgid "I tried to delete all non-operational data about you (that I know how to delete) {mention}, however the following modules errored: {modules}.\\nPlease contact the owner of this bot to address this.\\nNote: Outside of these failures, data should have been deleted."
@@ -288,39 +288,39 @@ msgstr ""
 
 #: redbot/core/core_commands.py:716
 msgid "I've deleted any non-operational data about you (that I know how to delete) {mention}"
-msgstr ""
+msgstr "He eliminado cualquier dato no operativo sobre usted (que sé cómo eliminar) {mention}"
 
 #: redbot/core/core_commands.py:724
 msgid "{mention} The following cogs did not handle deletion:\\n{cogs}."
-msgstr ""
+msgstr "{mention} Los siguientes cogs no han sido eliminados:\\n{cogs}."
 
 #: redbot/core/core_commands.py:734
 #, docstring
 msgid " [Coming Soon] Get what data [botname] has about you. "
-msgstr ""
+msgstr " [Próximamente] Obtenga qué datos tiene [botname] sobre usted. "
 
 #: redbot/core/core_commands.py:736
 msgid "This command doesn't do anything yet, but we're working on adding support for this."
-msgstr ""
+msgstr "Este comando no hace nada todavía, pero estamos trabajando en añadir soporte para esto."
 
 #: redbot/core/core_commands.py:745
 #, docstring
 msgid "\\n        Commands for more complete data handling.\\n        "
-msgstr ""
+msgstr "\\n        Comandos para un manejo más completo de datos.\\n        "
 
 #: redbot/core/core_commands.py:751
 #, docstring
 msgid "\\n        Set the bot to allow users to request a data deletion.\\n\\n        This is on by default.\\n        "
-msgstr ""
+msgstr "\\n        Establece el bot para permitir a los usuarios solicitar una eliminación de datos.\\n\\n        Esto está activado por defecto.\\n        "
 
 #: redbot/core/core_commands.py:758
 msgid "User can delete their own data. This will not include operational data such as blocked users."
-msgstr ""
+msgstr "El usuario puede eliminar sus propios datos. Esto no incluirá datos operativos como los bloqueados."
 
 #: redbot/core/core_commands.py:766
 #, docstring
 msgid "\\n        Set the bot to not allow users to request a data deletion.\\n        "
-msgstr ""
+msgstr "\\n        Establece el bot para que no permita a los usuarios solicitar una eliminación de datos.\\n        "
 
 #: redbot/core/core_commands.py:770
 msgid "User can not delete their own data."
@@ -329,7 +329,7 @@ msgstr "El usuario no puede eliminar sus propios datos."
 #: redbot/core/core_commands.py:774
 #, docstring
 msgid "\\n        Sets how user deletions are treated.\\n\\n        Level:\\n            0: What users can delete is left entirely up to each cog.\\n            1: Cogs should delete anything the cog doesn't need about the user.\\n        "
-msgstr ""
+msgstr "\\n        Establece cómo se tratan las eliminaciones del usuario.\\n\\n        Nivel:\\n            0: Lo que los usuarios pueden eliminar queda completamente en manos de cada especie.\\n            1: Cogs debería eliminar cualquier cosa que el engranaje no necesite del usuario.\\n        "
 
 #: redbot/core/core_commands.py:785
 msgid "Cogs will be instructed to remove all non operational data upon a user request."
@@ -342,7 +342,7 @@ msgstr ""
 #: redbot/core/core_commands.py:804
 #, docstring
 msgid "\\n        Handle a deletion request from Discord.\\n        "
-msgstr ""
+msgstr "\\n        Maneja una solicitud de eliminación de Discord.\\n        "
 
 #: redbot/core/core_commands.py:810
 msgid "This will cause the bot to get rid of or disassociate all data from the specified user ID. You should not use this unless Discord has specifically requested this with regard to a deleted user. This will remove the user from various anti-abuse measures. If you are processing a manual request from a user, you may want `{prefix}{command_name}` instead\\n\\nIf you are sure this is what you intend to do please respond with the following:"
@@ -362,16 +362,16 @@ msgstr ""
 
 #: redbot/core/core_commands.py:864 redbot/core/core_commands.py:1006
 msgid "I've deleted all data about that user that I know how to delete."
-msgstr ""
+msgstr "He eliminado todos los datos de ese usuario que sé cómo eliminar."
 
 #: redbot/core/core_commands.py:868
 msgid "{mention} The following cogs did not handle deletion:\\n{cogs}."
-msgstr ""
+msgstr "{mention} Los siguientes cogs no han sido eliminados:\\n{cogs}."
 
 #: redbot/core/core_commands.py:875
 #, docstring
 msgid " Delete data [botname] has about a user for a user. "
-msgstr ""
+msgstr " Eliminar los datos que [botname] tiene acerca de un usuario para un usuario. "
 
 #: redbot/core/core_commands.py:878
 msgid "This will cause the bot to get rid of or disassociate a lot of non-operational data from the specified user. Users have access to different command for this unless they can't interact with the bot at all. This is a mostly safe operation, but you should not use it unless processing a request from this user as it may impact their usage of the bot. \\n\\nIf you are sure this is what you intend to do please respond with the following:"
@@ -391,16 +391,16 @@ msgstr ""
 
 #: redbot/core/core_commands.py:938
 msgid "I've deleted all non-operational data about that user that I know how to delete."
-msgstr ""
+msgstr "He eliminado todos los datos no operacionales sobre ese usuario que sé cómo eliminar."
 
 #: redbot/core/core_commands.py:946
 msgid "{mention} The following cogs did not handle deletion:\\n{cogs}."
-msgstr ""
+msgstr "{mention} Los siguientes cogs no han sido eliminados:\\n{cogs}."
 
 #: redbot/core/core_commands.py:953
 #, docstring
 msgid " Delete data [botname] has about a user. "
-msgstr ""
+msgstr " Eliminar los datos que [botname] tiene acerca de un usuario. "
 
 #: redbot/core/core_commands.py:956
 msgid "This will cause the bot to get rid of or disassociate a lot of data about the specified user. This may include more than just end user data, including anti abuse records.\\n\\nIf you are sure this is what you intend to do please respond with the following:"
@@ -420,7 +420,7 @@ msgstr ""
 
 #: redbot/core/core_commands.py:1010
 msgid "{mention} The following cogs did not handle deletion:\\n{cogs}."
-msgstr ""
+msgstr "{mention} Los siguientes cogs no han sido eliminados:\\n{cogs}."
 
 #: redbot/core/core_commands.py:1017
 #, docstring
@@ -430,19 +430,19 @@ msgstr ""
 #: redbot/core/core_commands.py:1028
 #, docstring
 msgid "Show the current embed settings."
-msgstr ""
+msgstr "Mostrar la configuración actual de los embed."
 
 #: redbot/core/core_commands.py:1029
 msgid "Embed settings:\\n\\n"
-msgstr ""
+msgstr "Ajustes de embed:\\n\\n"
 
 #: redbot/core/core_commands.py:1031
 msgid "Global default: {}\\n"
-msgstr ""
+msgstr "Global por defecto: {}\\n"
 
 #: redbot/core/core_commands.py:1034
 msgid "Guild setting: {}\\n"
-msgstr ""
+msgstr "Configuración del servidor: {}\\n"
 
 #: redbot/core/core_commands.py:1037
 msgid "Channel setting: {}\\n"
@@ -842,7 +842,7 @@ msgstr ""
 
 #: redbot/core/core_commands.py:1740
 msgid "will not"
-msgstr ""
+msgstr "no será"
 
 #: redbot/core/core_commands.py:1740
 msgid "will"
@@ -1126,11 +1126,11 @@ msgstr ""
 
 #: redbot/core/core_commands.py:2247
 msgid "Set API services:\\n"
-msgstr ""
+msgstr "Establecer servicios API:\\n"
 
 #: redbot/core/core_commands.py:2247
 msgid "Set API service:\\n"
-msgstr ""
+msgstr "Establecer servicio API:\\n"
 
 #: redbot/core/core_commands.py:2257
 #, docstring
@@ -1389,7 +1389,7 @@ msgstr ""
 #: redbot/core/core_commands.py:2754
 #, docstring
 msgid "\\n        Allowlist management commands.\\n        "
-msgstr ""
+msgstr "\\n        Lista de comandos de administración.\\n        "
 
 #: redbot/core/core_commands.py:2761
 #, docstring
@@ -1407,16 +1407,16 @@ msgstr ""
 
 #: redbot/core/core_commands.py:2784
 msgid "Users on allowlist:"
-msgstr ""
+msgstr "Usuarios en la lista permitida:"
 
 #: redbot/core/core_commands.py:2793
 #, docstring
 msgid "\\n        Removes user from the allowlist.\\n        "
-msgstr ""
+msgstr "\\n        Elimina al usuario de la lista permitida.\\n        "
 
 #: redbot/core/core_commands.py:2803
 msgid "Users have been removed from the allowlist."
-msgstr ""
+msgstr "Los usuarios han sido eliminados de la lista permitida."
 
 #: redbot/core/core_commands.py:2807
 #, docstring
@@ -2079,7 +2079,7 @@ msgstr ""
 
 #: redbot/core/modlog.py:349
 msgid "Unknown"
-msgstr ""
+msgstr "Desconocido"
 
 #: redbot/core/modlog.py:353 redbot/core/modlog.py:375
 #: redbot/core/modlog.py:390
